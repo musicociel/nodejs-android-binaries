@@ -138,7 +138,7 @@ const downloadNodeJS = async function () {
       input:'x86_64',
       output: 'x86_64'
     }
-  ], 'nodejs', destFolder, {
+  ], 'nodejs-current', destFolder, {
     strip: 4,
     filter: (file) => {
       let res = true;
